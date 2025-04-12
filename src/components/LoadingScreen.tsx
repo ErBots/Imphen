@@ -6,7 +6,6 @@ const LoadingScreen = ({ onComplete }: { onComplete: () => void }) => {
   const [loadingText, setLoadingText] = useState('Mengompilasi kode yang ngga perlu dikoding...');
   const [progress, setProgress] = useState(0);
   
-  // Humorous loading texts that match the theme
   const loadingTexts = [
     'Mengompilasi kode yang ngga perlu dikoding...',
     'Menjadi programmer handal tanpa harus ngoding...',
@@ -23,13 +22,12 @@ const LoadingScreen = ({ onComplete }: { onComplete: () => void }) => {
   ];
   
   useEffect(() => {
-    // Randomly change the loading text every 1.5 seconds
+    // Mengganti loading setiap 1.5 detik
     const textInterval = setInterval(() => {
       const randomIndex = Math.floor(Math.random() * loadingTexts.length);
       setLoadingText(loadingTexts[randomIndex]);
     }, 1500);
     
-    // Progress simulation - faster now
     const progressInterval = setInterval(() => {
       setProgress((prevProgress) => {
         const newProgress = prevProgress + Math.random() * 15;
@@ -37,13 +35,12 @@ const LoadingScreen = ({ onComplete }: { onComplete: () => void }) => {
       });
     }, 300);
     
-    // Complete loading after a shorter time
     const timer = setTimeout(() => {
       clearInterval(textInterval);
       clearInterval(progressInterval);
       setProgress(100);
-      setTimeout(onComplete, 300); // Smaller delay after reaching 100%
-    }, 2500); // Reduced from 3500 to 2500ms
+      setTimeout(onComplete, 300); 
+    }, 2500);
     
     return () => {
       clearTimeout(timer);

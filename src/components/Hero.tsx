@@ -5,7 +5,7 @@ import { ArrowRight, Code, Star } from 'lucide-react';
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 
 const Hero = () => {
-  // User names and their corresponding avatar colors
+  // User name untuk menampilkan total pengikut
   const users = [
     { name: "Andi", color: "bg-purple-500" },
     { name: "Budi", color: "bg-blue-500" },
