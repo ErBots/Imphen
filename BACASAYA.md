@@ -32,7 +32,7 @@ Dengan **Imphen**, kamu bisa:
 
 1. Klik tombol di bawah ini:
 
-   [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/ErRickow/Imphen)
+   [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/ErBots/Imphen)
 
 2. Login ke Vercel (pakai GitHub biar niat dikit).
 3. Tunggu prosesnya. Jangan lupa ngopi dulu.
@@ -41,6 +41,7 @@ Dengan **Imphen**, kamu bisa:
 ---
 
 ## Local Development
+
 Mempunyai Node.js & npm Terinstall - [Install Dengan NVM](https://github.com/nvm-sh/nvm#installing-and-updating)
 
 Ikuti Step Berikut:
@@ -58,13 +59,21 @@ npm i
 # Step 4: Start development server dengan auto reload ketika update.
 npm run dev
 ```
-
+---
 ## Kenapa Harus Imphen?
 
 Karena hidup udah berat, jangan tambah beban dengan ngoding dari nol.  
 Biar kode orang lain yang kerja, kita tinggal nikmatin hasilnya.
 
 ---
+
+Project ini pake:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
 ## Kontribusi
 
@@ -76,4 +85,4 @@ Mau nge-fork tapi nggak ngerti? Gpp, kami ngerti kok.
 
 ## License
 
-[MIT](LICENSE) – Dipakai boleh, diaku-aku jangan.
+[The Unlicense](LICENSE) – Dipakai boleh, diaku-aku jangan.
