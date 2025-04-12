@@ -2,7 +2,14 @@
 
 > *“Ingin menjadi programmer handal, Namun enggan ngoding.”*
 
-![Deploy to Vercel](https://vercel.com/button)
+<p align="center">
+  <a href="https://github.com/ErBots/Imphen" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Repo-black?logo=github&style=for-the-badge" alt="GitHub">
+  </a>
+  <a href="https://imphen-by-er.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Live-Demo-blue?logo=vercel&style=for-the-badge" alt="Live Demo">
+  </a>
+</p>
 
 ---
 
